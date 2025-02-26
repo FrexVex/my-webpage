@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About FrexVex</title>
+    
+    <!-- Auto-redirect to your GitHub Pages site -->
+    <meta http-equiv="refresh" content="0; URL='https://frexvex.github.io/frexvex.web/'">
+    
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #121212;
+            color: #ffffff;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            text-align: left;
+        }
+        h1 {
+            font-size: 28px;
+            color: #ffcc00;
+            text-align: center;
+        }
+        .code-snippet {
+            background: #282c34;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+        }
+        .executor {
+            margin-top: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            background: #1e1e1e;
+            color: #ffffff;
+            border: 1px solid #ffcc00;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+        }
+        button {
+            margin-top: 10px;
+            background: #ffcc00;
+            color: #121212;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact {
+            margin-top: 20px;
+            padding: 15px;
+            background: #282c34;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .social-links a {
+            color: #ffcc00;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>About Me</h1>
+        <p>Hello, I'm FrexVex—a passionate programmer, ethical hacker, and game developer with a strong background in cybersecurity, scripting, and technology. I specialize in Lua, Python, JavaScript, and HTML, constantly working on innovative projects that push the boundaries of creativity and functionality.</p>
+        <p>My interests span across software development, ethical exploits, and security research, where I focus on building responsible and educational tools that enhance the digital space.</p>
+        <p>Beyond coding, I enjoy composing music, exploring SCP lore, and engaging with a community of like-minded tech enthusiasts. My approach to problem-solving is forward-thinking, always looking for efficient and creative solutions.</p>
+
+        <h2>Website URL</h2>
+        <p>Visit my site: <a href="https://frexvex.github.io/frexvex.web/" target="_blank">frexvex.web</a></p>
+
+        <h2>Code Snippet</h2>
+        <div class="code-snippet">
+            <pre>
+<code># Python Example: Simple Function
+def introduction():
+    print("Welcome to my world of coding!")
+
+introduction()</code>
+            </pre>
+        </div>
+
+        <h2>Code Executor</h2>
+        <div class="executor">
+            <textarea id="codeInput" placeholder="Write your Python code here..."></textarea>
+            <button onclick="executeCode()">Run Code</button>
+        </div>
+
+        <h2>Contact & Social Media</h2>
+        <div class="contact">
+            <p>Feel free to reach out to me or follow my work online:</p>
+            <div class="social-links">
+                <a href="https://github.com/FrexVex" target="_blank">GitHub</a>
+                <a href="https://youtube.com/@FrexVex" target="_blank">YouTube</a>
+                <p>Discord: frexvex</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function executeCode() {
+            let code = document.getElementById('codeInput').value;
+            alert("Executing: " + code);
+        }
+
+        // JavaScript Redirect (Backup in case Meta doesn't work)
+        window.onload = function() {
+            window.location.href = "https://frexvex.github.io/frexvex.web/";
+        }
+    </script>
+
+</body>
+</html>
